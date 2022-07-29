@@ -1,1 +1,5 @@
 image: gitpod/workspace-full-vnc:2022-07-20-05-50-58
+
+tasks:
+  - init: npm install -g @angular/cli && npm install
+    command: ng serve
