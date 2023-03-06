@@ -1,5 +1,4 @@
 image: gitpod/workspace-full-vnc:2022-07-20-05-50-58
 
 tasks:
-  - init: cd replicar-series && npm install -g @angular/cli && npm install
-    command: ng serve
+  - command: cd replicar-series && npm install -g @angular/cli && npm install && ng serve
